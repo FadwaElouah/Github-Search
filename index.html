@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"8>
+
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-[#141d2f] follow">
+ <section class="w-[60%] mx-auto mb-10">
+   <div class="flex justify-between mt-[2rem] py-[1rem]">
+     <h1 class="text-[25px] font-bold text-white text">devfinder</h1>
+     <button class="flex mr-2 light">
+        <p class="text-white text">Light</p>
+        <img src="icons/icon-sun.svg" class="w-[20px] h-[20px] ml-[10px] mt-1" alt="">
+     </button>
+     
+   </div>
+   <button class="flex mr-2 ml-[43rem] mt-[-3rem] hidden dark">
+    <p class="text-white text">Dark</p>
+    <img src="icons/icon-moon.svg" class="w-[20px] h-[20px] ml-[10px] mt-1" alt="">
+ </button>
+   <div class="flex  mt-[2rem] py-[1rem] rounded-[10px] bg-[#1e2a47]" id="back">
+    
+      <img src="icons/icon-search.svg" alt="" class="ml-[5px]">
+   
+     <input type="text" placeholder="Search Github Username..." class="w-[41rem] bg-[#1e2a47] text-white pl-[5px] input" id="back">
+     <button class=" px-[10px] py-[3px] rounded-[5px] bg-[#0079ff] text-white hover:opacity-30 btn">Search</button>
+   </div>
+   <div class="mt-[1rem] bg-[#1e2a47] rounded-[10px] " id="back">
+      <div class="flex ml-[1rem] ">
+        <div id="photo">
+         <img src="téléchargement.jpg" alt="" class="w-[6rem] h-[6rem] rounded-[50%] mt-[1rem] border border-black img">
+        </div>
+        <div class="ml-[15px]">
+            <h2 class="font-bold text-white text-[24px] mt-6 user">Kasia Zaleska</h2>
+            <p class="text-[#0079ff] text-[20px] userName">@kzaleskaa</p>
+            <p class="text-white Date">Joined 16 Mar 2020</p>
+        </div>
+      </div>
+      <p class="text-white ml-[1rem] my-[1rem] Bio">This profile has no bio</p>
+      <div class="w-[95%] mx-auto flex bg-[#141d2f] rounded-[10px] justify-around py-[1rem] follow">
+         <div>
+            <p class="font-bold text-white text-[18px] text">Repos</p>
+            <p class="text-white text-center repoTotal text">0</p>
+         </div>
+         <div>
+            <p class="font-bold text-white text-[18px] text">Followers</p>
+            <p class="text-white text-center followersTotal text">0</p>
+         </div>
+         <div>
+            <p class="font-bold text-white text-[18px] text">Following</p>
+            <p class="text-white text-center followingTotal text">0</p>
+         </div>
+        
+      </div>
+      <div class="grid grid-cols-2 grid-rows-2 ml-[1rem] mt-[1rem] pb-[1rem] gap-2">
+        <div>
+            <img src="icons/icon-location.svg" alt="" class="inline">
+            <span class="text-white pl-[10px] location">Warsaw</span>
+        </div>
+        <div>
+            <img src="icons/icon-website.svg" alt="" class="inline">
+            <span class="text-white pl-[10px] hover:opacity-45 webSite"> kzaleskaa.github.io</span>
+        </div>
+        <div>
+            <img src="icons/icon-twitter.svg" alt="" class="inline">
+            <span class="text-white pl-[10px] opacity-25 twitter">Not Available</span>
+        </div>
+        <div>
+            <img src="icons/icon-company.svg" alt="" class="inline">
+            <span class="text-white pl-[10px] company">Snowflake</span>
+        </div>
+     </div>
+   </div>
+ </section>
+   
+
+ <script src="main.js"></script>
+</body>
+</html>
